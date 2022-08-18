@@ -40,22 +40,7 @@ es: &DEFAULT_ES
       section: nosotros
     - title: "Contáctenos"
       section: contacto
-
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
   <<: *DEFAULT_ES
-
-# Deutsch
-# -----------------
-de: &DEFAULT_DE
-  nav:
-    - title: "Leistungen"
-      section: Leistungen
-    - title: "Portfolio"
-      section: Portfolio
-    - title: "Über uns"
-      section: Ueber
-    - title: "Kontakt"
-      section: Kontakt
-
