@@ -11,9 +11,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-theme: jekyll-agency
+remote_theme: raviriley/agency-jekyll-theme
 
-url    : "https://yooniverse88.github.io"
+url    : ""
 baseurl: "/gunbam"
 
 title      : Gunbam Comapny
@@ -27,8 +27,8 @@ author     : The owner of Gunbam Company
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: G-QF2CBTZK6Q
-
+  google: 
+  
 collections:
   portfolio:
 
@@ -37,3 +37,10 @@ markdown: kramdown
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
 formspree_form_path: "f/mzbwbvyj"
+
+# Uncomment following line to use Formspree form ID based URL instead of email based URL
+# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
+# formspree_form_path: "f/a_form_id"
+
+plugins:
+  - jekyll-remote-theme
